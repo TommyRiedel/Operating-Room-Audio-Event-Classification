@@ -5,9 +5,9 @@ Hardly any work currently uses sounds in the operating room to estimate the curr
 This semester thesis is therefore attempting to recognize specific sounds in an operating room in order to be able to perform more operations on patients.
 
 # Classes:
-  - monopolar coagulation mode
-  - bipolar coagulation mode
-  - cutting mode
+  - Monopolar coagulation mode
+  - Bipolar coagulation mode
+  - Cutting mode
   - Hämolock fast coagulation mode
   - Table up
   - Table down
@@ -45,8 +45,10 @@ From the keras library different models pretrained on the ImageNet dataset are f
   - InceptionV3
   - ResNet50
   - VGG19
-  - MobileNet
+  - **MobileNet**
   - DenseNet169
 
 # Data Augmentation:
-sss
+Artificially increases the amount of training data (regularization).
+Only used to extend the classes with less data and thus keep a balanced class distribution (only training data).
+Time and frequency masking are used as methods to augment the spectrograms.
