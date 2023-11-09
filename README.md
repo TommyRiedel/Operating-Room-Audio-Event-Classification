@@ -21,8 +21,14 @@ This semester thesis is therefore attempting to recognize specific sounds in an 
 The audio of several open / laparoscopic and robot-assisted (DaVinci) interventions were recorded at the Klinikum Rechts der Isar (OR 9).
 Data augmentation and transfer learning are used to reduce the necessary amount of training data.
 The recordings are divided into short snippets using Audacity and a window function generates 0.7 second long samples (tradeoff btw accuracy and real-time capability).
+Since transfer learning with models pretrained on ImageNet are used for classification, the audio files are converted to spectrograms (image-like).
+To increase the influence of the low frequency range (= human hearing) the mel-scale is used (64 filter bands - tradeoff accuracy and computational resources).
 
 <img width="405" alt="Bildschirmfoto 2023-11-09 um 14 11 58" src="https://github.com/TommyRiedel/Operating-Room-Audio-Event-Classification/assets/33426324/5e8b547b-d2b5-4549-b5d7-c79a84051cce">
+<img width="238" alt="Bildschirmfoto 2023-11-09 um 14 21 27" src="https://github.com/TommyRiedel/Operating-Room-Audio-Event-Classification/assets/33426324/e39bc789-b0a1-47e2-94f4-896a98d3a35d">
+
+
+
 
 
 (mel spectrograms)
@@ -36,6 +42,7 @@ The recordings are divided into short snippets using Audacity and a window funct
 
 # Classification:
 
+EfficientNetB4 (380x380 pixels)
 
 
 Data Augmentation + Transfer Learning
