@@ -6,6 +6,9 @@ Hardly any work currently uses sounds in the operating room to estimate the curr
 This semester thesis is therefore attempting to recognize specific sounds in an operating room in order to use the operating room more efficiently and therefore being able to help more patients.
 
 # Classes:
+In an initial study with a smaller data set (200 data per class), all of the following classes were used.
+Due to the smaller amount of available data, the classes marked with an * had to be neglected for further investigations with larger amounts of data per class.
+
   - Monopolar coagulation mode
   - Bipolar coagulation mode
   - Cutting mode
