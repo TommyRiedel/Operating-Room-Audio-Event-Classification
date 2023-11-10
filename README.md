@@ -2,7 +2,7 @@
 
 # Motivation
 The time utilization of the operating room can be improved by recognizing the current phase of the operation.
-Hardly any work currently uses sounds in the operating room to estimate the current status of the operation, although this is easily accessible and meaningful information.
+Hardly any work currently uses sounds in the operating room to estimate the current status of the operation, although this source of information is easily accessible and meaningful.
 This semester thesis is therefore attempting to recognize specific sounds in an operating room in order to be able to perform more operations on patients.
 
 # Classes:
