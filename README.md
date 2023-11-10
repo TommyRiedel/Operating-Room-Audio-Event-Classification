@@ -2,8 +2,8 @@
 
 # Motivation
 The time utilization of the operating room can be improved by recognizing the current phase of the operation.
-Hardly any work currently uses sounds in the operating room to estimate the current status of the operation, although this source of information is easily accessible and meaningful.
-This semester thesis is therefore attempting to recognize specific sounds in an operating room in order to be able to perform more operations on patients.
+Hardly any work currently uses sounds in the operating room to estimate the current status of the operation, although audible information is easily accessible and can be meaningful.
+This semester thesis is therefore attempting to recognize specific sounds in an operating room in order to use the operating room more efficiently and therefore being able to help more patients.
 
 # Classes:
   - Monopolar coagulation mode
