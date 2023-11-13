@@ -1,4 +1,9 @@
 # Semesterarbeit: "Development of a Deep Learning based Audio Event Classification for the Operating Room"
+**Learning**
+  - Tensorflow
+  - CNNs (Deep Learning image classification)
+  - Keras (Transfer Learning)
+  - t-SNE
 
 # Motivation
 The estimated time utilization of the operating room can be updated during the operation by recognizing it's current phase.
