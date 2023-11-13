@@ -70,3 +70,8 @@ Augmented spectrogram       |  Augmented wave-file
 
 The first study (small dataset) shows, that the best results can be achieved with the pretrained MobileNet model.
 The advantage compared to the DenseNet169 model is the shorter time required per epoch.
+The training accuracies for the MobileNet model trained with different augmentation strategies hardly differ.
+If the performance of the model on the augmented data is compared, it is obviously that, the classification of augmented spectrograms is problematic.
+
+t-SNE is a non-linear dimensionality reduction technique, where similar data points are close to each other.
+With t-SNE it is investigated if the MobileNet model is able to extract meaningful features to distinguish the different sounds.
