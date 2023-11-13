@@ -64,6 +64,6 @@ On the other hand, theoriginal wave-file is augmented via amplification or by ad
 
 Augmented spectrogram       |  Augmented wave-file
 :-------------------------:|:-------------------------:
-<img width="662" alt="Bildschirmfoto 2023-11-13 um 13 04 11" src="https://github.com/TommyRiedel/Operating-Room-Audio-Event-Classification/assets/33426324/a1fe10f8-4459-4d17-9cc6-31004c258358">
+<img width="662" alt="Bildschirmfoto 2023-11-13 um 13 04 11" src="https://github.com/TommyRiedel/Operating-Room-Audio-Event-Classification/assets/33426324/a1fe10f8-4459-4d17-9cc6-31004c258358"> |
 <img width="659" alt="Bildschirmfoto 2023-11-13 um 13 05 28" src="https://github.com/TommyRiedel/Operating-Room-Audio-Event-Classification/assets/33426324/f085fe41-6d48-46b9-9f28-74e515a7dce6">
 
