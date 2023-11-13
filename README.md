@@ -8,11 +8,11 @@ This semester thesis therefore attempts to recognize specific sounds in an opera
 # Classes:
 
 In an initial study with a smaller data set (200 data per class), all of the following classes were used.
-Due to the smaller amount of available data, the classes marked with an * had to be neglected for further investigations with larger amounts of data per class.
+Due to the smaller amount of available data, the classes marked with an (*) had to be neglected for further investigations with larger amounts of data per class.
 
   - Monopolar coagulation mode
   - Bipolar coagulation mode
-  - Cutting mode
+  - Cutting mode (*)
   - Hämolock fast coagulation mode
   - Table up
   - Table down
@@ -66,3 +66,7 @@ Augmented spectrogram       |  Augmented wave-file
 :-------------------------:|:-------------------------:
 <img width="500" alt="Bildschirmfoto 2023-11-13 um 13 04 11" src="https://github.com/TommyRiedel/Operating-Room-Audio-Event-Classification/assets/33426324/a1fe10f8-4459-4d17-9cc6-31004c258358"> | <img width="450" alt="Bildschirmfoto 2023-11-13 um 13 05 28" src="https://github.com/TommyRiedel/Operating-Room-Audio-Event-Classification/assets/33426324/f085fe41-6d48-46b9-9f28-74e515a7dce6">
 
+# Results:
+
+The first study (small dataset) shows, that the best results can be achieved with the pretrained MobileNet model.
+The advantage compared to the DenseNet169 model is the shorter time required per epoch.
