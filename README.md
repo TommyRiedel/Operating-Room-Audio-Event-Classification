@@ -14,7 +14,7 @@ This semester thesis therefore attempts to recognize specific sounds in an opera
 ## Generation and preprocessing of the data (**Preprocessing.py**):
 The audio of 23 open / laparoscopic or robot-assisted (DaVinci) interventions (= 74h 27min) were recorded at the Klinikum Rechts der Isar (operating room 9).
 Due to the limited amount of data, some sounds cannot be considered.
-Examples are commands such as "Schnitt", which is usually given by the surgeon at the beginning of an operation or the sound of a stappler, which occurs relatively at the end of this kind of operations.
+Examples are commands such as "Schnitt", which is usually given by the surgeon at the beginning of an operation or the sound of a stappler, which occurs relatively at the end of this kind of operations (sigmoid resection).
 The amount of data considerably varies between the above classes.
 Transfer learning is used to reducde the necessary amount of training data and data augmentation is used to expand the amount of data for less common sounds.
 The recordings are divided into 0.7 second snippets using Audacity and a window function (compromise between accuracy and real-time capability).
