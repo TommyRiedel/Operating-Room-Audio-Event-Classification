@@ -2,16 +2,16 @@
 **Learning**
   - Tensorflow
   - CNNs (Deep Learning image classification)
+  - Data Augmentation (images/spectrograms + audio files)
   - Keras (Transfer Learning)
   - t-SNE
 
-# Motivation
+## Motivation
 The estimated time utilization of the operating room can be updated during the operation by recognizing it's current phase.
 Hardly any work currently uses sounds in the operating room to estimate the current status of the operation, although audible information is easily accessible and can be meaningful.
 This semester thesis therefore attempts to recognize specific sounds in an operating room in order to use the operating room more efficiently and thus being able to help more patients.
 
-# Classes:
-
+### Classes:
 In an initial study with a smaller data set (200 data per class), all of the following classes were used.
 Due to the smaller amount of available data, the classes marked with an (*) had to be neglected for further investigations with larger amounts of data per class.
 
