@@ -64,8 +64,8 @@ This type of approach is particularly relevant when the amount of data is small 
 # Data Augmentation (**Preprocessing.py**):
 Artificially increases the amount of training data and in this case especially for the classes with less data available.
 In this work, two different augmentation approaches are compared.
-On the one hand, the spectrograms are augmented by masking out some time and/or frequency channels of the spectrogram.
-On the other hand, theoriginal wave-file is augmented via amplification or by adding a white noise.
+On the one hand, the spectrograms are augmented by masking out some time and/or frequency channels of the spectrogram (**Augment_spec.py**).
+On the other hand, theoriginal wave-file is augmented via amplification or by adding a white noise (**Augment_wave.py**).
 
 Augmented spectrogram       |  Augmented wave-file
 :-------------------------:|:-------------------------:
