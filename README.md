@@ -27,7 +27,7 @@ Due to the smaller amount of available data, the classes marked with an (*) had 
   - DaVinci sounds
   - Idle
 
-# Generation and preprocessing of the data:
+# Generation and preprocessing of the data (**Preprocessing.py**):
 The audio of 23 open / laparoscopic or robot-assisted (DaVinci) interventions (= 74h 27min) were recorded at the Klinikum Rechts der Isar (operating room 9).
 Due to the limited amount of data, some sounds cannot be considered.
 An example are commands such as "Schnitt", which is usually given by the surgeon at the beginning of an operation or the sound of a stappler, which occurs relatively at the end of this type of operations.
@@ -61,7 +61,7 @@ This type of approach is particularly relevant when the amount of data is small 
   - **MobileNet**
   - DenseNet169
 
-# Data Augmentation:
+# Data Augmentation (**Preprocessing.py**):
 Artificially increases the amount of training data and in this case especially for the classes with less data available.
 In this work, two different augmentation approaches are compared.
 On the one hand, the spectrograms are augmented by masking out some time and/or frequency channels of the spectrogram.
@@ -72,7 +72,6 @@ Augmented spectrogram       |  Augmented wave-file
 <img width="500" alt="Bildschirmfoto 2023-11-13 um 13 04 11" src="https://github.com/TommyRiedel/Operating-Room-Audio-Event-Classification/assets/33426324/a1fe10f8-4459-4d17-9cc6-31004c258358"> | <img width="450" alt="Bildschirmfoto 2023-11-13 um 13 05 28" src="https://github.com/TommyRiedel/Operating-Room-Audio-Event-Classification/assets/33426324/f085fe41-6d48-46b9-9f28-74e515a7dce6">
 
 # Results:
-
 The first study (small dataset) shows, that the best results can be achieved with the pretrained MobileNet model.
 The advantage compared to the DenseNet169 model is the shorter time required per epoch.
 The training accuracies for the MobileNet model trained with different augmentation strategies hardly differ.
